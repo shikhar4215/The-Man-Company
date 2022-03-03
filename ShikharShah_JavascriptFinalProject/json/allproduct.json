@@ -1,0 +1,67 @@
+{"teammembers":[
+	{
+        "product_price":"PRICE: 250 INR",
+		"product_name": "Charcol Facewash",
+		"image": "images/pro1.png",
+		"tag_line": "Best Facewash to use",
+        "product_scheme":"5% OFF"
+	},
+	{
+        "product_price":"PRICE: 150 INR",
+		"product_name": "Charcol",
+		"image": "images/pro2.png",
+		"tag_line": "Skin doctor",
+        "product_scheme":"15% OFF"
+	},
+	{
+        "product_price":"PRICE: 550 INR",
+		"product_name": "Sun Protection",
+		"image": "images/pro3.png",
+        "tag_line": "More SPF then other",
+        "product_scheme":"10% OFF"
+	},
+    
+    
+    {
+        "product_price":"PRICE: 750 INR",
+		"product_name": "Foaming Facewash",
+		"image": "images/pro4.png",
+		"tag_line": "Facewash",
+        "product_scheme":"5% OFF"
+	},
+	{
+        "product_price":"PRICE: 500 INR",
+		"product_name": "Beard Oil",
+		"image": "images/pro5.png",
+		"tag_line": "Grow Beard",
+        "product_scheme":"15% OFF"
+	},
+	{
+        "product_price":"PRICE: 100 INR",
+		"product_name": "Perfume",
+		"image": "images/pro6.png",
+        "tag_line": "Body Perfume",
+        "product_scheme":"10% OFF"
+	},
+    {
+        "product_price":"PRICE: 100 INR",
+		"product_name": "Gel",
+		"image": "images/pro7.png",
+        "tag_line": "Anti-Acme Gel",
+        "product_scheme":"5% OFF"
+	},
+    {
+        "product_price":"PRICE: 200 INR",
+		"product_name": "Facewash",
+		"image": "images/pro8.png",
+        "tag_line": "Gooseberry Peel-Off Mask",
+        "product_scheme":"10% OFF"
+	},
+    {
+        "product_price":"PRICE: 80 INR",
+		"product_name": "Blanc",
+		"image": "images/pro9.png",
+        "tag_line": "EAU DE Toilette",
+        "product_scheme":"3% OFF"
+	}
+]}

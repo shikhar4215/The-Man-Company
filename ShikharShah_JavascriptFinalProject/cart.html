@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>Wishlist !!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link href="plugins/jquery-ui.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/headerfooter.css" type="text/css">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+	<link rel="stylesheet" href="css/cart.css" type="text/css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+<header>
+    <div class="about-hero">
+        <nav>
+            <div class="nav-bar">
+                <div class="nav-logo">
+                    <img src="images/logo.png" alt="lOGO" id="limg">
+                </div>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="closeMenu()"></i>
+
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="order.html">My Orders</a></li>
+                        <li><a href="cart.html" id="oo">My Cart</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>
+        </nav>
+
+
+    </div>
+</header>
+
+
+<main>
+<h1>Cart product visible here..</h1>
+
+<div id="product_main_div">
+	
+</div>
+
+<div id="empty_buy_button">
+  <button id="emp_cart" class="ui-button ui-corner-all ui-widget">Empty cart</button>
+  <button id="buy_prodcut"  class="ui-button ui-corner-all ui-widget">Buy Now</button>
+  <button id="add_product" class="ui-button ui-corner-all ui-widget">Add Product</button>
+</div>
+</main>
+
+    
+<!--Footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="footer-col">
+                <img id="logofooter" src="images/logo.png">
+            </div>
+
+            <div class="footer-col">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="wishlist.html">Wishlist</a></li>
+                    <li><a href="orders.html">My Orders</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Extras</h4>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Exchange</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="rights">Javascript Group 3 &#169;2021. All rights reserved</div>
+</footer>
+    
+	<script src="external/jquery/jquery.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
+
+

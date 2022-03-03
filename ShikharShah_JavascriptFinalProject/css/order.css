@@ -1,0 +1,28 @@
+#order_detail{
+    width: 100%;
+    text-align: center;
+}
+#order_detail h4,h5{
+    text-align: center;
+}
+
+#qua_txt{
+    margin-top: 0px;
+}
+
+#spinner{
+    padding-left: 5px;
+}
+
+#remove_pro_btn{
+    text-decoration: none;
+}
+@media only screen and (max-width: 1250px) {
+    #pro_img {
+        max-width: 360px;
+    }
+    .footer-col{
+        width: 100%;
+        text-align: center;
+    }
+}

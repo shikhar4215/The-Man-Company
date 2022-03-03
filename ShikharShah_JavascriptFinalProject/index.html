@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>Buy Here !!</title>
+ 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="plugins/jquery-ui.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/headerfooter.css" type="text/css">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="external/jquery/jquery.js"></script>
+	<script src="plugins/jquery-ui.js"></script>
+	<script src="js/index.js"></script>
+	
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  	<link rel="stylesheet" href="external/bxslider.css">
+   
+</head>
+<body>
+<header>
+    <div class="about-hero">
+        <nav>
+            <div class="nav-bar">
+                <div class="nav-logo">
+                    <img src="images/logo.png" alt="lOGO" id="limg">
+                </div>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="closeMenu()"></i>
+
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="order.html">My Orders</a></li>
+                        <li><a href="cart.html" id="oo">My Cart</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>
+        </nav>
+	</div>
+	<div class="slider bx-wrapper"> 
+        <div><img src="images/desktophomebanner.jpg" alt=""></div>
+        <div><img src="images/pexels-cottonbro-3944405.jpg" alt=""></div>
+        <div><img src="images/pexels-photomix-company-230544.jpg" alt=""></div>
+        <div><img src="images/anete-lusina-zwsHjakE_iI-unsplash.jpg" alt=""></div>
+    </div>
+    <script>
+    $(function(){
+        $(".slider").bxSlider({
+            auto:true,
+            mode:'fade',
+            caption:true,
+            slidewidth:600,
+            speed:500,
+        })
+    })
+</script>
+</header>
+
+
+<main>
+<h1>Buy products at cheaper price</h1>
+
+<div id="product_main_div">
+    <p>Special discount on weekends.</p>
+    <div id="product_json">
+    
+    </div>   
+    
+</div>
+    
+<h2 class="travelHeaders">Frequently Asked Questions</h2>    
+<div id="faqsection">
+	<h3>How to cancel the order?</h3>
+	<div>Just go to My Orders and cancel it.</div>
+	<h3>Refund policy</h3>
+	<div>100% refund till 7 days after delivery.</div>
+	<h3>COVID Safety</h3>
+	<div>We use all the safety while delivering the products.</div>
+</div>
+    
+<div id="main_div_askque">
+    <div id="add_que">+ Ask your question if not in the FAQ +</div>
+    
+    <div id="added_que">
+    
+    </div>
+</div>    
+</main>
+
+    
+<!--Footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="footer-col">
+                <img id="logofooter" src="images/logo.png">
+            </div>
+
+            <div class="footer-col">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="wishlist.html">Wishlist</a></li>
+                    <li><a href="orders.html">My Orders</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Extras</h4>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Exchange</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="rights">Javascript Group 3 &#169;2021. All rights reserved</div>
+</footer>
+
+</body>
+</html>
+
+

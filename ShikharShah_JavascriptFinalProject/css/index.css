@@ -1,0 +1,97 @@
+.produts_display{
+    width:25%;
+    float: left;
+    margin: 0 4%;
+    text-align: center;
+}
+
+.produts_display h3{
+    text-align: center;
+}
+
+#product_main_div p{
+    text-align: center;
+}
+.produts_display img{
+    width: 100%;
+    height: 50%;
+}
+.cart_now {
+    margin-top: 10px;
+    transform: translate(0px, 7px);
+    padding: 10px 33px;
+}
+.buy_now{
+    padding: 10px 42px;
+}
+form{
+    text-align: center;
+}
+.wishlist_now{
+    margin-top: 7px;
+}
+#product_json div{
+    padding: 30px;
+}
+
+#qua_para{
+    margin: 0;
+    text-align: center;
+}
+.quantity_txtbox{
+    margin-left: 35px;
+    width: 70%;
+}
+
+.travelHeaders {
+    margin-top: 47em;
+}
+
+/*ASK QUESTION SECTION*/
+
+#main_div_askque{
+    margin-top: 60px;
+}
+
+#add_que{
+    border: 1px solid #000000;
+    cursor: pointer;
+    color: #1c94c4;
+    background: #f6f6f6;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#added_que{
+    padding: 0px 20px;
+}
+
+#product_json{
+    height: 300px;
+}
+
+/*MOBILE AND TABLET VIEW CSS*/
+@media only screen and (max-width: 910px) {
+    .produts_display{
+        width: 100%;
+    }
+    .produts_display img {
+        width: 100%;
+        height: 50%;
+        padding: 0px 170px;
+    }
+    .nav-links ul {
+        margin-right: 34px;
+        display: grid;
+        text-align: left;
+    }
+    .footer-col{
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+
